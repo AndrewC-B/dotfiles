@@ -10,6 +10,10 @@ source $OMF_PATH/init.fish
 set -g theme_display_vagrant yes
 set -g theme_display_hostname ssh
 
+# Tmux session management.
+#   List all sessions: mux
+#   Switch to session, or create: mux my-session
+
 function mux
   set -l name $argv[1]
   if test -z $name;
