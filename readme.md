@@ -27,3 +27,22 @@ echo "set -g theme_display_vagrant yes" >> ~/.config/fish/config.fish
 
 ## Tmux
 `cp .tmux.conf ~/`
+
+### Cheatsheet
+Prefix: `C-z` (`⌃Z`)
+
+#### Sessions
+- List sessions: `mux`
+- New session: `mux my-session`
+- Open existing session: `mux my-session`\
+- Detach from session: `prefix: d`
+
+#### Windows
+- New window: `prefix: c`
+
+#### Panes
+- New vertical split pane: `prefix: v`
+- New horizontal split pane: `prefix: h`
+- Close pane: `exit` (ie: exit that shell)
+- Switch pane: `⌃ arrow keys`
+- Resize pane: `⌥ arrow keys`
