@@ -46,3 +46,4 @@ Prefix: `C-z` (`⌃Z`)
 - Close pane: `exit` (ie: exit that shell)
 - Switch pane: `⌃ arrow keys`
 - Resize pane: `⌥ arrow keys`
+- Maximise pane: `prefix: z` (repeat to restore)
