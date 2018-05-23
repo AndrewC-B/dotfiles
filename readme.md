@@ -25,6 +25,12 @@ fish -c "omf install bobthefish"
 echo "set -g theme_display_vagrant yes" >> ~/.config/fish/config.fish
 ```
 
+# Virtual env
+```
+sudo -H apt-get -y install python-pip
+sudo -H pip install virtualfish 
+```
+
 ## Tmux
 `cp .tmux.conf ~/`
 
