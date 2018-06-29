@@ -17,3 +17,13 @@ function mux
   end
   tmux attach -t $name; or tmux new -s $name
 end
+
+# SFTP file path
+function sf
+  if test -z $argv
+    set dest $PWD
+  else
+    set dest $argv
+  end
+  echo sftp://$USER@(hostname):/$dest  # Transmit needs an extra slash in the file path for some reason.
+end
