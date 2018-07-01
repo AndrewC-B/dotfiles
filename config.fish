@@ -27,3 +27,9 @@ function sf
   end
   echo sftp://$USER@(hostname):/$dest  # Transmit needs an extra slash in the file path for some reason.
 end
+
+# Misc
+function config
+  vim ~/.config/fish/config.fish
+  source ~/.config/fish/config.fish
+end
