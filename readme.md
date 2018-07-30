@@ -36,6 +36,7 @@ Prefix: `C-z` (`⌃Z`)
 - New session: `mux my-session`
 - Open existing session: `mux my-session`\
 - Detach from session: `prefix: d`
+- Detach other sessions: `prefix: D`
 
 #### Windows
 - New window: `prefix: c`
